@@ -1,3 +1,5 @@
+import "./App.css"
+import HeroSection from "./components/Hero"
 import Navbar from "./components/navbar"
 const App = ()=>{
 
@@ -5,6 +7,7 @@ const App = ()=>{
     <>
     <div>
       <Navbar/>
+      <HeroSection/>
     </div>
     </>
   )

@@ -1,13 +1,13 @@
-import React from "react"
-import './App.css'
+
 const Navbar = ()=>{
     return(
         <nav className="navbar">
-
+    {/* Logo */}
       <div>
       <img className="logo" src="/images/brand-logo.jpg" alt="logo" />
       </div>        
-
+    
+    {/* Navbar list */}
       <ul>
         <li href="#">Menu</li>
         <li href="#">Location</li>
