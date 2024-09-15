@@ -1,6 +1,6 @@
 const HeroSection = () => {
   return (
-    <main className="hero">
+    <main className="hero container">
       <div className="hero-content">
         <h1>YOUR FEET DESERVE THE BEST</h1>
         <p>
@@ -10,7 +10,7 @@ const HeroSection = () => {
       </div>
 
       <div className="hero-img">
-        <img src="/images/Hero-image.jpg" alt="hero-img" />
+        {/* <img src="/images/Hero-image.jpg" alt="hero-img" /> */}
       </div>
  
     <div className="hero-btn">
@@ -29,8 +29,8 @@ const HeroSection = () => {
         </p>
 
         <div className="brand-icons">
-            <img src="/images/flipkart.png" alt="" />
-            <img src="/images/amazon.png" alt="" />
+            {/* <img src="/images/flipkart.png" alt="" /> */}
+            {/* <img src="/images/amazon.png" alt="" /> */}
 
         </div>
     </div>
