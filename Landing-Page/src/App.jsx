@@ -5,8 +5,6 @@ const App = () => {
   return (
     
     <>
-    
-    <div>HeLLo LaNdiNg</div>
     <Navbar/>
     </>
   )
