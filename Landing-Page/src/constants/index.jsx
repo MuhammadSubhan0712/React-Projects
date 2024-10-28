@@ -5,15 +5,12 @@ import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 
-
 import user1 from "../assets/user1.jpg";
 import user2 from "../assets/user2.jpg";
 import user3 from "../assets/user3.jpg";
 import user4 from "../assets/user4.jpg";
 import user5 from "../assets/user5.jpeg";
 import user6 from "../assets/user6.jpg";
-
-
 
 export const navItems = [
   { label: "Features", href: "#" },
@@ -51,7 +48,7 @@ export const testimonials = [
     user: "Michael Wilson",
     company: "Visionary Creations",
     image: user5,
-   text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
   },
   {
     user: "Emily Davis",
