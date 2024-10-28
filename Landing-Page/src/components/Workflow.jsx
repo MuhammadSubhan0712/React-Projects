@@ -1,18 +1,17 @@
 import { CheckCircle2 } from "lucide-react";
-import codeImg from "../assets/code1.png";
-import codeImg2 from "../assets/code2.png";
+import codeImg from "../assets/code1(1)(1).jpg";
+import codeImg2 from "../assets/code2(1)(1).jpg";
 import { checklistItems } from "../constants";
 const Workflow = () => {
   return (
     <div className="mt-20">
 <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide">
-Accelerate your 
-<span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
+Accelerate your  <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
 Coding Workflow.
 </span>
-<div className="flex flex-wrap justify-center">
-    <div className="p-2 w-full lg:w-1/2">
-    <img src={codeImg} alt="code" />
+<div className="flex flex-wrap justify-center items-center">
+    <div className="p-7 w-full lg:w-1/2">
+    <img src={codeImg} alt="code1" />
     <img src={codeImg2} alt="code2" />
     </div>
     <div className="pt-12 w-full lg:w-1/2">
