@@ -5,6 +5,10 @@ import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 
+import FeatureSection from "../components/FeatureSection.jsx"
+import Workflow from "../components/Workflow.jsx";
+import Pricing from "../components/Pricing.jsx";
+import Testimonials from "../components/Testimonials.jsx";
 import user1 from "../assets/user1.jpg";
 import user2 from "../assets/user2.jpg";
 import user3 from "../assets/user3.jpg";
@@ -13,10 +17,10 @@ import user5 from "../assets/user5.jpeg";
 import user6 from "../assets/user6.jpg";
 
 export const navItems = [
-  { label: "Features", href: "../components/FeatureSection" },
-  { label: "Workflow", href: "../components/Workflow" },
-  { label: "Pricing", href: "../components/Pricing" },
-  { label: "Testimonials", href: "../components/Testimonials" },
+  { label : "Features", path: "Features", element: <FeatureSection/> },
+  { label : "Workflow", path: "Workflow", element: <Workflow/> },
+  { label : "Pricing", path: "Pricing", element: <Pricing/> },
+  { label : "Testimonials", path: "Testimonials", element: <Testimonials/> }, 
 ];
 
 export const testimonials = [
