@@ -1,5 +1,5 @@
 import { features } from "../constants";
-
+import { LoaderCircle } from "lucide-react";
 const FeatureSection = () => {
   return (
     <div className="realtive mt-20 border-b border-neutral-800 min-h-[800px]">
@@ -17,7 +17,7 @@ const FeatureSection = () => {
       </div>
 
       <div className="flex flex-wrap mt-10 lg:mt-20">
-        {features.map((feature, index) => (
+        {features.length > 0 ? features.map((feature, index) => (
           <div key={index} className="w-full sm:w-1/2 lg:w-1/3">
             <div className="flex">
               <div className="flex mx-6 h-10 w-10 p-2 bg-neutral-900 text-purple-800 justify-center items-center rounded-full">
@@ -31,7 +31,9 @@ const FeatureSection = () => {
               </div>
             </div>
           </div>
-        ))}
+        )) :  <p className="mt-5 p-3 text-gray-950 flex justify-center items-center">
+        <LoaderCircle size={36} />
+      </p>}
       </div>
     </div>
   );

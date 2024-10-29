@@ -1,5 +1,5 @@
 import { testimonials } from "../constants";
-
+import { LoaderCircle } from "lucide-react";
 const Testimonials = () => {
   return (
     <div className="mt-20 tracking-wide">
@@ -7,7 +7,7 @@ const Testimonials = () => {
         What People are saying
       </h2>
       <div className="flex flex-wrap justify-center">
-        {testimonials.map((testimonials, index) => {
+        {testimonials.length > 0 ? testimonials.map((testimonials, index) => {
           <div key={index} className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2">
             <div className="bg-neutraal rounded-md p-6 text-md border border-neutral-800 font-thin">
               <p>{testimonials.text}</p>
@@ -24,7 +24,9 @@ const Testimonials = () => {
               </span>
             </div>
           </div>;
-        })}
+        }) :  <p className="mt-5 p-3 text-gray-950 flex justify-center items-center">
+        <LoaderCircle size={36} />
+      </p>}
       </div>
     </div>
   );

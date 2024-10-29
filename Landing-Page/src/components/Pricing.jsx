@@ -1,4 +1,4 @@
-import { CheckCircle } from "lucide-react";
+import { CheckCircle , LoaderCircle } from "lucide-react";
 import { pricingOptions } from "../constants";
 
 const Pricing = () => {
@@ -8,7 +8,7 @@ const Pricing = () => {
         Pricing
       </h2>
       <div className="flex flex-wrap">
-        {pricingOptions.map((option, index) => {
+        {pricingOptions.length > 0 ? pricingOptions.map((option, index) => {
           <div key={index} className="w-full p-2 sm:w-1/2 lg:w-1/3">
             <div className="p-10 border border-neutral-700 rounded-xl">
               <p className="text-4xl mb-8">
@@ -39,8 +39,11 @@ const Pricing = () => {
                 Subscribe
               </a>
             </div>
-          </div>;
-        })}
+          </div>
+        }) :  <p className="mt-5 p-3 text-gray-950 flex justify-center items-center">
+        <LoaderCircle size={36} />
+      </p>
+      }
       </div>
     </div>
   );
