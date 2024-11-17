@@ -5,12 +5,6 @@ import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 
-import user1 from "../assets/user1.jpg";
-import user2 from "../assets/user2.jpg";
-import user3 from "../assets/user3.jpg";
-import user4 from "../assets/user4.jpg";
-import user5 from "../assets/user5.jpeg";
-import user6 from "../assets/user6.jpg";
 
 export const navItems = [
   { label: "Features", href: "../components/FeatureSection" },
@@ -23,37 +17,37 @@ export const testimonials = [
   {
     user: "John Doe",
     company: "Stellar Solutions",
-    image: user1,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKHtUIoqw2q1Gw8ixOi9e4mxdNI1aYqxlCnA&s",
     text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
   },
   {
     user: "Jane Smith",
     company: "Blue Horizon Technologies",
-    image: user2,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE41666y6wjE7zMGohs1EPrzJm7Er0lwFwRQ&s",
     text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
   },
   {
     user: "David Johnson",
     company: "Quantum Innovations",
-    image: user3,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl6xtQhkut_9LV18_3Opk2UYJ91HLfARS_mg&s",
     text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
   },
   {
     user: "Ronee Brown",
     company: "Fusion Dynamics",
-    image: user4,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS81OPt3W1jSaSpthZTUa3w-KukpB7ANwXivg&s",
     text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
   },
   {
     user: "Michael Wilson",
     company: "Visionary Creations",
-    image: user5,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIpHg0Wg2v6l_ZyhcnuBFS1ulDoI0FObadw&s",
     text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
   },
   {
     user: "Emily Davis",
     company: "Synergy Systems",
-    image: user6,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5I8TONCG3BfbVrEeJw4d5jlXfu2GYTTYn8g&s",
     text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
   },
 ];

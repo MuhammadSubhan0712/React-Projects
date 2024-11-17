@@ -8,12 +8,14 @@ const Pricing = () => {
   // console.log("Araha hai saman" , pricingOptions);
   
   return (
+    <>
     <div className="mt-20">
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-8 tracking-wider">
         Pricing
       </h2>
       <div className="flex flex-wrap">
-        {pricingOptions.length > 0 ? pricingOptions.map((option, index) => {
+        {pricingOptions.length > 0 ? (pricingOptions.map((option, index) => {
+          return (
           <div key={index} className="w-full p-2 sm:w-1/2 lg:w-1/3">
             <div className="p-10 border border-neutral-700 rounded-xl">
               <p className="text-4xl mb-8">
@@ -37,20 +39,20 @@ const Pricing = () => {
                   </li>;
                 })}
               </ul>
-
               <a
                 href="#"
-                className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl hover:bg-orange-900 border border-orange-900 rounded-lg transition duration-200">
+                className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl hover:bg-purple-900 border border-purple-900 rounded-lg transition duration-200">
                 Subscribe
               </a>
             </div>
-          </div>
-        }) :  <p className="mt-5 p-3 text-gray-950 flex justify-center items-center">
+          </div>)
+        })) :  <p className="mt-5 p-3 text-gray-950 flex justify-center items-center">
         <LoaderCircle size={36} />
       </p>
       }
       </div>
-    </div>
+   </div>
+    </>
   );
 };
 

@@ -10,14 +10,15 @@ const Footer = () => {
             Resources
             <ul className="space-y-2">
               {resourcesLinks.map((link, index) => {
+                return(
                 <li key={index}>
                   <a
                     href={link.href}
                     className="text-neutral-300 hover:text-white">
                     {link.text}
                   </a>
-                </li>;
-              })}
+                </li>
+              )})}
             </ul>
           </h3>
         </div>
@@ -29,14 +30,15 @@ const Footer = () => {
           Platform
           <ul className="space-y-2">
             {platformLinks.map((link, index) => {
+              return(
               <li key={index}>
                 <a
                   href={link.href}
                   className="text-neutral-300 hover:text-white">
                   {link.text}
                 </a>
-              </li>;
-            })}
+              </li>
+            )})}
           </ul>
         </h3>
       </div>
@@ -47,13 +49,14 @@ const Footer = () => {
           Community
           <ul className="space-y-2">
             {communityLinks.map((link, index) => {
+              return(
               <li key={index}>
                 <a
                   href={link.href}
                   className="text-neutral-300 hover:text-white">
                   {link.text}
                 </a>
-              </li>;
+              </li>)
             })}
           </ul>
         </h3>
