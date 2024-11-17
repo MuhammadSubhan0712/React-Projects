@@ -7,10 +7,10 @@ import { GlobeLock } from "lucide-react";
 
 
 export const navItems = [
-  { label: "Features", href: "../components/FeatureSection" },
-  { label: "Workflow", href: "../components/Workflow" },
-  { label: "Pricing", href: "../components/Pricing" },
-  { label: "Testimonials", href: "../components/Testimonials" },
+  { label: "Features", path:"../components/FeatureSection" },
+  { label: "Workflow", path: "../components/Workflow" },
+  { label: "Pricing", path: "../components/Pricing" },
+  { label: "Testimonials", path: "../components/Testimonials" },
 ];
 
 export const testimonials = [
