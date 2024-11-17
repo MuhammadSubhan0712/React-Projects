@@ -129,7 +129,7 @@ export const pricingOptions = [
       "5 Gb Storage",
       "Web Analytics",
       "Private Mode",
-    ],
+    ],    
   },
   {
     title: "Pro",
