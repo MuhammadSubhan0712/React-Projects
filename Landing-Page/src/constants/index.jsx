@@ -30,7 +30,7 @@ export const testimonials = [
     user: "David Johnson",
     company: "Quantum Innovations",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl6xtQhkut_9LV18_3Opk2UYJ91HLfARS_mg&s",
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to looking for their service.",
   },
   {
     user: "Ronee Brown",
@@ -48,7 +48,7 @@ export const testimonials = [
     user: "Emily Davis",
     company: "Synergy Systems",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5I8TONCG3BfbVrEeJw4d5jlXfu2GYTTYn8g&s",
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    text: "The team went beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
   },
 ];
 
