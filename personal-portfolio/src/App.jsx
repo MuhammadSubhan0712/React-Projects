@@ -1,8 +1,13 @@
-import React from 'react'
-
 const App = () => {
   return (
-    <div>App</div>
+    <>
+    <div className='flex justify-center'>
+      <h1 className="card text-purple text-3xl text-semibold underline">
+        KaLi KaLi zulfon ke phande na dalo
+      </h1>
+    </div>
+    </>
+    
   )
 }
 

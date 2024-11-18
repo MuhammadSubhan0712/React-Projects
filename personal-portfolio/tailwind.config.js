@@ -21,8 +21,13 @@ export const theme = {
       '8xl': '96rem',
       '9xl': '128rem',
     },
+    plugins: [require("daisyui")],
     borderRadius: {
       '4xl': '2rem',
     }
   }
 };
+
+
+
+
