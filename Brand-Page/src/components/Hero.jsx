@@ -18,24 +18,21 @@ const HeroSection = () => {
             Category
         </button>
     </div>
-    
+
     <div className="shopping">
         <p>
             Also Available on
         </p>
 
         <div className="brand-icons">
-            {/* <img src="/images/flipkart.png" alt="" /> */}
-            {/* <img src="/images/amazon.png" alt="" /> */}
+            <img src="/images/flipkart.png" alt="flipkart logo" />
+            <img src="/images/amazon.png" alt="" />
 
         </div>
     </div>
+
       <div className="hero-img">
         <img src="/images/Hero-image.jpg" alt="hero-img" />
-      </div>
- 
- 
-      <div className="hero-img">
       </div>
     </main>
   );
