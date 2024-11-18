@@ -1,11 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-body{
-  font-family: "Poppins", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
@@ -23,8 +16,10 @@ body {
 button {
   all: unset;
   padding: 6px 16px;
-  background: var(--red);
+  background: linear-gradient(180deg , red , maroon);
   height: 32px;
+  border: 3px yellow groove;
+  border-radius: 15px;
   color: white;
   font-weight: 500;
 }
@@ -66,12 +61,19 @@ nav ul {
   max-width: 400px;
 }
 
+.hero-image{
+  width: 500px;
+  height: 500px;
+}
+
 .hero-btn {
   display: flex;
   gap: 40px;
+
 }
 .hero-btn button {
   font-size: 24px;
+
 }
 .secondary-btn {
   background: transparent;
@@ -87,41 +89,6 @@ nav ul {
   display: flex;
   gap: 16px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -147,12 +114,10 @@ nav ul {
 button{
   all: unset;
   padding: 5px 12px;
-  background: linear-gradient(180deg , red , maroon);
   height: 32px;
   color: white;
   font-weight: 500;
-  border: 3px yellow groove;
-  border-radius: 15px;
+ 
 }
 
 .hero{
@@ -161,9 +126,7 @@ button{
   height: calc(100vh- 72px);
 }
 
-.hero img{
-width: 500px;
-height: 500px;
+
  } */
 
 
