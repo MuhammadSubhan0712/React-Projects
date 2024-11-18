@@ -9,11 +9,7 @@ const HeroSection = () => {
          </p>
       </div>
 
-      <div className="hero-img">
-        {/* <img src="/images/Hero-image.jpg" alt="hero-img" /> */}
-      </div>
- 
-    <div className="hero-btn">
+      <div className="hero-btn">
         <button>
             Shop Now
         </button>
@@ -22,7 +18,7 @@ const HeroSection = () => {
             Category
         </button>
     </div>
-
+    
     <div className="shopping">
         <p>
             Also Available on
@@ -34,6 +30,11 @@ const HeroSection = () => {
 
         </div>
     </div>
+      <div className="hero-img">
+        <img src="/images/Hero-image.jpg" alt="hero-img" />
+      </div>
+ 
+ 
       <div className="hero-img">
       </div>
     </main>
