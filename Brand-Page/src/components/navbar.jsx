@@ -3,16 +3,16 @@ const Navbar = ()=>{
     return(
         <nav className="container">
     {/* Logo */}
-      <div>
-      <img className="logo" src="/images/brand-logo.jpg" alt="logo" />
+      <div className="nav-logo">
+      <img src="/images/brand-logo.jpg" alt="logo" />
       </div>        
     
     {/* Navbar list */}
-      <ul>
-        <li href="#">Menu</li>
-        <li href="#">Location</li>
-        <li href="#">About</li>
-        <li href="#">Contact</li>
+      <ul className="nav-links">
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Location</a></li>
+        <li><a href="#">About</a> </li>
+        <li><a href="#">Contact</a></li>
       </ul>  
 
       <button>Login</button>
