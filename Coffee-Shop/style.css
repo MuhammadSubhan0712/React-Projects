@@ -262,6 +262,7 @@ header .icons i {
   right: 2rem;
   padding: 0.5rem 1.2rem;
   font-size: 4rem;
+  color: #fff;
   background-color: var(--orange);
   border-radius: 0.5rem;
   transition: 1s linear;
