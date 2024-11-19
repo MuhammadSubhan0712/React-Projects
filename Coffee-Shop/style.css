@@ -221,7 +221,37 @@ header .icons i {
   margin-right: 1rem;
 }
 
+.dishes .row{
+   display:flex;
+   flex-wrap: wrap;
+   gap: 1.5rem;
+   align-items: center;
+}
 
+.about .row .image{
+   flex: 1 1 45rem;
+}
+
+.about .row .image img{
+   width: 100%;
+}
+
+.about .row .content{
+   flex: 1 1 45rem;
+}
+
+.about .row .content h3{
+   color: #e6e6e6;
+   font-size: 4rem;
+   padding: 0.5rem 0;
+}
+
+.about .row .content p{
+   color: #bababa;
+   font-size: 1.7rem;
+   padding: 0.5rem 0;
+   line-height: 2;
+}
 
 
 
