@@ -1,54 +1,133 @@
 
-
-
-header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+body{
     background-color: #000 ;
-    padding: 2rem 7%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 1000;
-    box-shadow: var(--box-shadow);
-    border: .5px solid #574736;
 }
 
-header .logo{
-    font-size: 2.5rem;
-    color: #fff;
-    font-weight: bolder;
 
-}
-header .logo img{
-    height: 35px;
-    width: 35px;
-    font-weight: bold;
- 
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  padding: 2rem 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: var(--box-shadow);
+  border: 0.5px solid #574736;
 }
 
-header .navbar a{
-    font-size: 1.7rem;
-    padding: .5rem 1.5rem;
-    color: #fff;
-    border-radius: 0.5rem;
+header .logo {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: bolder;
+}
+header .logo img {
+  height: 35px;
+  width: 35px;
+  font-weight: bold;
+}
+
+header .navbar a {
+  font-size: 1.7rem;
+  padding: 0.5rem 1.5rem;
+  color: #fff;
+  border-radius: 0.5rem;
 }
 header .navbar a.active,
-header .navbar a:hover{
-    background-color: var(--orange);
-    color: #fff;
+header .navbar a:hover {
+  background-color: var(--orange);
+  color: #fff;
 }
 
-header .icons i{
-cursor: pointer;
-margin-left: 0.5rem;
-height: 4.5rem;
-width: 4.5rem;
-line-height: 4.5rem;
-font-size: 1.7rem;
-color: #fff;
-border-radius: 50%;
-text-align: center;
+header .icons i {
+  cursor: pointer;
+  margin-left: 0.5rem;
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 1.7rem;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
 }
+
+/* Home */
+
+.hero-section {
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.hero-section .section-content {
+  display: flex;
+  padding-top: 40px;
+  align-items: center;
+  min-width: 100vh;
+  justify-content: space-between;
+}
+
+.hero-section .hero-details {
+  color: #fff;
+}
+
+.hero-section .hero-details .title {
+  font-size: 5rem;
+  color: var(--orange);
+  font-family: "Miniver", sans-serif;
+}
+
+ .hero-section .hero-details .subtitle{
+    margin-top: 8px;
+    max-width: 70%;
+    font-size: 3rem;
+    font-weight: 600;
+ }
+
+ .hero-section .hero-details .description{
+    max-width: 70%;
+    margin: 24px 0 40px;
+    font-size: 1.7rem;
+ }
+
+ .hero-section .hero-details .buttons{
+    display: flex;
+    gap: 23px;
+ }
+ .hero-section .hero-details .image-wrapper{
+    max-width: 500px;
+    margin-left: 20px;
+ }
+
+ .btn{
+ margin-top: 1rem;
+ display: inline-block;
+ padding: 0.8rem 3rem;
+ font-size: 1.7rem;
+ background-color: var(--orange);
+ border: 0.2rem solid var(--orange);
+ color: #fff;
+ cursor: pointer;
+ border-radius: 0.5rem;
+ }
+
+ .contact-us{
+ margin-top: 1rem;
+ display: inline-block;
+ padding: 0.8rem 3rem;
+ font-size: 1.7rem;
+ background-color: var(--orange);
+ border: 0.2rem solid var(--orange);
+ color: #fff;
+ cursor: pointer;
+ border-radius: 0.5rem;
+ }
