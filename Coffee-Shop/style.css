@@ -221,46 +221,129 @@ header .icons i {
   margin-right: 1rem;
 }
 
-.dishes .row{
-   display:flex;
+.dishes .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.about .row .image {
+  flex: 1 1 45rem;
+}
+
+.about .row .image img {
+  width: 100%;
+}
+
+.about .row .content {
+  flex: 1 1 45rem;
+}
+
+.about .row .content h3 {
+  color: #e6e6e6;
+  font-size: 4rem;
+  padding: 0.5rem 0;
+}
+
+.about .row .content p {
+  color: #bababa;
+  font-size: 1.7rem;
+  padding: 0.5rem 0;
+  line-height: 2;
+}
+
+/* Products */
+.pro-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  gap: 2rem;
+  align-items: center;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+
+.pro-content .row img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.pro-content .row {
+  transition: all 0.4s ease;
+  box-shadow: var(--box-shadow);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.pro-content .pro-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+.pro-content .pro-text h4 {
+  font-size: 23px;
+  color: var(--orange);
+}
+
+.pro-content .pro-text h5 {
+  font-size: 25px;
+  color: var(--orange);
+}
+
+.pro-content .row p {
+  color: #bfbaba;
+  font-size: 15px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.pro-content .star{
+   text-align: center;
+}
+.pro-content .star i {
+  color: var(--orange);
+  font-size: 17px;
+  margin-right: 4px;
+} 
+
+.pro-content .row:hover{
+   transform: scale(1.02);
+}
+
+
+
+/* 2nd Banner */
+.banner2 .row {
+   height: 30rem;
+   border: 0.5rem solid #574736;
+   display: flex;
    flex-wrap: wrap;
-   gap: 1.5rem;
-   align-items: center;
+   gap: 2rem;
 }
 
-.about .row .image{
-   flex: 1 1 45rem;
+.banner2 .row .content {
+   justify-content: left;
+   padding: 5rem;
 }
 
-.about .row .image img{
-   width: 100%;
+.banner2 .row .content h2{
+ font-size: 4rem;
+ color: #fff;
 }
 
-.about .row .content{
-   flex: 1 1 45rem;
+.banner2 .row .content h3 {
+   font-size: 2rem;
 }
 
-.about .row .content h3{
-   color: #e6e6e6;
-   font-size: 4rem;
-   padding: 0.5rem 0;
+.banner2 .row .image {
+   height: 25rem;
+   width: 25rem;
+   margin: auto;
 }
-
-.about .row .content p{
-   color: #bababa;
-   font-size: 1.7rem;
-   padding: 0.5rem 0;
-   line-height: 2;
-}
-
-
-
-
-
-
-
-
-
 
 
 
