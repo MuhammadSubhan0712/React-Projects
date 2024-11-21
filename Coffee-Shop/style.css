@@ -460,6 +460,42 @@ header .icons i {
   text-transform: lowercase;
 }
 
+.footer .box-container.box a i {
+  color: var(--orange);
+  padding-right: 0.5rem;
+}
+
+.footer .box-container.box .email {
+  width: 100%;
+  margin: 0.7rem 0;
+  border-radius: 0.5rem;
+  background-color: #eee;
+  font-size: 1.6rem;
+  color: #130f40;
+  text-transform: none;
+  padding: 1rem;
+}
+.footer .credit {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 2.5rem;
+  border-top: 0.3rem solid var(--orange);
+}
+.footer .credit img {
+  margin-bottom: 1rem;
+  width: 300px;
+  height: 35px;
+}
+
+.footer .credit p {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.footer .credit p span {
+  color: var(--orange);
+  font-size: 600;
+}
 /* Scroll top */
 
 #scroll-top {
