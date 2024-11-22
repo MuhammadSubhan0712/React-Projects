@@ -505,7 +505,7 @@ header .icons i {
 }
 
 /* Footer */
-.footer {
+.footer{
   background-color: #fff6f6;
 }
 
@@ -515,13 +515,13 @@ header .icons i {
   gap: 1.5rem;
 }
 
-.footer.box-container .box h3 {
+.footer .box-container .box h3 {
   font-size: 2.5rem;
   color: #fff;
   padding: 1rem, 0;
 }
 
-.footer .box-container.box a {
+.footer .box-container .box a {
   display: block;
   font-size: 1.5rem;
   color: #666;
@@ -529,12 +529,12 @@ header .icons i {
   text-transform: lowercase;
 }
 
-.footer .box-container.box a i {
+.footer .box-container .box a i {
   color: var(--orange);
   padding-right: 0.5rem;
 }
 
-.footer .box-container.box .email {
+.footer .box-container .box .email {
   width: 100%;
   margin: 0.7rem 0;
   border-radius: 0.5rem;
