@@ -293,12 +293,15 @@ header .icons i {
   margin-right: 1rem;
 }
 
-.dishes .row {
+
+/* Why choose us */
+.about .row {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   align-items: center;
 }
+
 
 .about .row .image {
   flex: 1 1 45rem;
@@ -306,6 +309,7 @@ header .icons i {
 
 .about .row .image img {
   width: 100%;
+  border-radius: 10%;
 }
 
 .about .row .content {
