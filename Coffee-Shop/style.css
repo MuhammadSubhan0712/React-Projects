@@ -260,8 +260,11 @@ header .icons i {
 }
 
 .dishes .box-container .box img {
-  height: 17rem;
+  width: 30rem;
+  height: 25rem;
   margin: 1rem 0;
+  border: 5px dotted rgb(255, 182, 114);
+  border-radius: 50%;
   animation: float 3s linear infinite;
 }
 
@@ -323,7 +326,7 @@ header .icons i {
 }
 
 /* Products */
-.pro-content {
+.pro-content{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, auto));
   gap: 2rem;
@@ -352,12 +355,12 @@ header .icons i {
   padding: 15px 0;
 }
 
-.pro-content .pro-text h4 {
+.pro-content .pro-text .pro-left h4 {
   font-size: 23px;
   color: var(--orange);
 }
 
-.pro-content .pro-text h5 {
+.pro-content .pro-text .pro-right h5 {
   font-size: 25px;
   color: var(--orange);
 }
@@ -407,9 +410,11 @@ header .icons i {
 }
 
 .banner2 .row .image {
-  height: 25rem;
-  width: 25rem;
-  margin: auto;
+  height: 40rem;
+  width: 40rem;
+  margin-left: 7rem;
+  margin-top: 1rem;
+  
 }
 
 /* Review  */
@@ -517,7 +522,7 @@ header .icons i {
 
 .footer .box-container .box h3 {
   font-size: 2.5rem;
-  color: #fff;
+  color: var(--black);
   padding: 1rem, 0;
 }
 
@@ -558,7 +563,7 @@ header .icons i {
 
 .footer .credit p {
   font-size: 2rem;
-  color: #fff;
+  color: var(--black);
 }
 
 .footer .credit p span {
