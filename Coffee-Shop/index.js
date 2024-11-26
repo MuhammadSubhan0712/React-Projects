@@ -12,13 +12,14 @@ window.onscroll = () => {
   section.forEach((sec) => {
     let top = window.scrollBy;
     let height = sec.offsetHeight;
-    let offset = (sec.offsetTop - 150);
+    let offset = sec.offsetTop - 150;
     let id = sec.getAttribute("id");
     if (top >= offset && top < offset + height) {
       navLinks.foreach((links) => {
         links.classList.remove("active");
-        document.querySelector("header #navbar a[href*=" + id + "]")
-        .classsList.add("active");
+        document
+          .querySelector("header #navbar a[href*=" + id + "]")
+          .classsList.add("active");
       });
     }
   });

@@ -330,7 +330,8 @@ header .icons i {
 }
 
 /* Products */
-.pro-content{
+
+ .pro-content{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, auto));
   gap: 2rem;
@@ -338,7 +339,6 @@ header .icons i {
   margin-top: 4rem;
   cursor: pointer;
 }
-
 .pro-content .row img {
   width: 100%;
   height: auto;
@@ -346,7 +346,7 @@ header .icons i {
 }
 
 .pro-content .row {
-  transition: all 0.4s ease;
+  transition: all 0.40s ease;
   box-shadow: var(--box-shadow);
   padding: 10px;
   border-radius: 10px;
@@ -355,16 +355,16 @@ header .icons i {
 .pro-content .pro-text {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding: 15px 0;
 }
 
-.pro-content .pro-text .pro-left h4 {
+.pro-content .pro-text h4 {
   font-size: 23px;
   color: var(--orange);
 }
 
-.pro-content .pro-text .pro-right h5 {
+.pro-content .pro-text h5 {
   font-size: 25px;
   color: var(--orange);
 }
@@ -470,15 +470,16 @@ header .icons i {
 .contact .row {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 15rem;
 }
 
 .contact .row .image {
   flex: 1 1 30rem;
 }
 .contact .row .image img {
-  height: 100%;
-  width: 100%;
+  height: 90%;
+  width: 150%;
+  border-radius: 50px;
   object-fit: cover;
 }
 
@@ -561,8 +562,8 @@ header .icons i {
 }
 .footer .credit img {
   margin-bottom: 1rem;
-  width: 300px;
-  height: 35px;
+  width: 450px;
+  height: 150px;
 }
 
 .footer .credit p {
