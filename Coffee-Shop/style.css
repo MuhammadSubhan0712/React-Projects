@@ -43,7 +43,12 @@ footer{
 section:nth-child(even){
    background-color: #000;
 }
-
+a:hover{
+  transition: 0.2s ease-in-out;
+  background: maroon;
+  color: white;
+  cursor: pointer;
+}
 .sub-heading{
    text-align: center;
    color: var(--orange);
@@ -562,8 +567,8 @@ header .icons i {
 }
 .footer .credit img {
   margin-bottom: 1rem;
-  width: 450px;
-  height: 150px;
+  width: 350px;
+  height: 80px;
 }
 
 .footer .credit p {
