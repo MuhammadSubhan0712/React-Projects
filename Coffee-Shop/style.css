@@ -39,7 +39,6 @@ section,
 footer{
    padding: 2rem 9%;
 }
-
 section:nth-child(even){
    background-color: #000;
 }
@@ -66,11 +65,9 @@ a:hover{
    color: var(--orange);
    display: inline-block;
 }
-
 img{
    width: 100%;
 }
-
 header .icons i:hover{
    background: var(--orange);
    color: #fff;
