@@ -577,19 +577,4 @@ header .icons i {
   color: var(--orange);
   font-size: 600;
 }
-/* Scroll top */
 
-#scroll-top {
-  position: fixed;
-  top: 120%;
-  right: 2rem;
-  padding: 0.5rem 1.2rem;
-  font-size: 4rem;
-  color: #fff;
-  background-color: var(--orange);
-  border-radius: 0.5rem;
-  transition: 1s linear;
-}
-#scroll-top:active {
-  top: calc(100% - 12rem);
-}
