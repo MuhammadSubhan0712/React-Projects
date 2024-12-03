@@ -69,5 +69,5 @@ width: 90px;
 }
 
 .navbar-profile:hover .dropdown{
-    display: flex;
+    display: block;
 }
