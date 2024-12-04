@@ -23,12 +23,19 @@ width: 90px;
     display: flex;
     list-style: none;
     gap: 20px;
-}
 
+}
 .navbar-left ul li{
-    cursor: pointer;
+    color: white;
+    border-bottom: 2px dotted red;
+    padding-bottom: 2px; 
+    transition: 0.3s ease-in-out;
 }
-
+.navbar-left ul li:hover{
+    cursor: pointer;
+    border-bottom: 3px solid yellow;  
+    transition: 0.3s ease-in-out;
+}
 .navbar-right{
     display: flex;
     gap: 20px;

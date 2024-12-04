@@ -3,15 +3,16 @@ import "./Player.css";
 import back_arrow_icon from "../../assets/back_arrow_icon.png";
 import { useNavigate, useParams } from "react-router-dom";
 
+
 const Player = () => {
   const [apiData, setApiData] = useState({
     name: "",
     key: "",
     published_at: "",
-    type: "",
+    typeof: "",
   });
 
-  const { id } = useParams;
+  const { id } = useParams();
   const navigate = useNavigate();
 
   const options = {
@@ -37,9 +38,7 @@ const Player = () => {
       <img
         src={back_arrow_icon}
         alt="bai"
-        onClick={() => {
-          navigate(-2);
-        }}
+      onClick={() => {navigate(-2)}}
       />
       <iframe
         width="90%"
@@ -49,7 +48,7 @@ const Player = () => {
         frameBorder="0"
         allowFullScreen></iframe>
       <div className="player-info">
-        <p>{apiData.published_at.slice(0, 10)}</p>
+        <p>{apiData.published_at.slice(0 , 10)}</p>
         <p>{apiData.name}</p>
         <p>{apiData.type}</p>
       </div>
